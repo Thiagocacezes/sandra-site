@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sandra Helena Orlandini</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="mediaquery.css" />
+</head>
+
+<body>
+    <nav id="desktop-nav">
+        <div class="logo">Sandra Helena Orlandini</div>
+        <div>
+            <ul class="nav-links">
+                <li><a href="#about">Sobre</a></li>
+                <li><a href="#experience">Experiência</a></li>
+                <li><a href="#projects">Atendimentos</a></li>
+                <li><a href="#contact">Contato</a></li>
+            </ul>
+        </div>
+    </nav>
+    <nav id="hamburger-nav">
+        <div class="logo">Sandra Helena Orlandini</div>
+        <div class="hamburger-menu">
+            <div class="hamburger-icon" onclick="toggleMenu()">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <div class="menu-links">
+                <li><a href="#about" onclick="toggleMenu()">Sobre</a></li>
+                <li><a href="#experience" onclick="toggleMenu()">Experiência</a></li>
+                <li><a href="#projects" onclick="toggleMenu()">Atendimentos</a></li>
+                <li><a href="#contact" onclick="toggleMenu()">Contato</a></li>
+            </div>
+        </div>
+    </nav>
+    <section id="profile">
+        <div class="section__pic-container">
+            <img src="./assets/IMG_8242.jpg" alt="John Doe profile picture" class="about-pic" />
+        </div>
+        <div class="section__text">
+            <p class="section__text__p1">Sejam Bem Vindos...</p>
+            <h1 class="title">Sandra Helena Orlandini</h1>
+            <p class="section__text__p2">Terapeuta Transpessoal</p>
+            <div class="btn-container">
+                <button class="btn btn-color-2" onclick="window.open('./assets/Currículo Sandra Helena-1.pdf')">
+                    Meu currículo
+                </button>
+                <button class="btn btn-color-1" onclick="location.href='./#contact'">
+                    Contato e Informação
+                </button>
+            </div>
+            <div id="socials-container">
+                <img src="./assets/unipaz.png" alt="My LinkedIn profile" class="icon"
+                    onclick="location.href='https://unipazdf.org.br/'" />
+                <img src="./assets/cit - Cópia.png" alt="My Github profile" class="icon"
+                    onclick="location.href='https://unipaz.org.br/cit/'" />
+            </div>
+        </div>
+    </section>
+    <section id="about">
+        <p class="section__text__p1">Saiba Mais</p>
+        <h1 class="title">Sobre Mim</h1>
+        <div class="section-container">
+            <div class="section__pic-container">
+                <img src="./assets/IMG_8241.jpg" alt="Profile picture" class="about-pic" />
+            </div>
+            <div class="about-details-container">
+                <div class="about-containers">
+                    <div class="details-container">
+                        <img src="./assets/experience.png" alt="Experience icon" class="icon" />
+                        <h3>Experiência</h3>
+                        <p>22 Anos <br />Terapeuta Transpessoal</p>
+                    </div>
+                    <div class="details-container">
+                        <img src="./assets/unipaz.png" alt="Education icon" class="icon" />
+                        <h3>Formação</h3>
+                        <p>Graduei-me na Unipaz - Universidade Holística Internacional da Paz de Brasília,
+                            DF<br />Formação em Pscicologia Traspessoal
+                    </div>
+                </div>
+                <div class="text-container">
+                    <p>
+                        Meu nome é Sandra Helena Orlandini
+                                        Apresento-me como uma terapeuta comprometida
+                                        com a promoção do bem-estar e da
+                                        transformação pessoal.
+
+                                        <strong>Prática:</strong>
+                                        Ao longo de 25 anos, tenho tido a honra e a alegria de acompanhar indivíduos em
+                                        suas caminhadas únicas de autodescoberta, oferecendo suporte compassivo para a
+                                        superação de desafios, o cultivo da autoconsciência e o florescimento pessoal.
+
+                                        <strong>Formação e abordagens principais:</strong>
+                                        Graduei-me na Unipaz - Universidade Holística Internacional da Paz de Brasília,
+                                        DF, Brasil-Formação em Pscicologia Traspessoal.
+                                        Minha abordagem é profundamente enraizada na filosofia da Unipaz e orientada na
+                                        busca da consciência, da autenticidade e do cuidado integral.
+
+                                        <strong>Premissas de trabalho:</strong>
+
+                                        Entendo que a interação terapêutica genuína proporciona um espaço seguro e
+                                        acolhedor onde a conexão autêntica e a compreensão profunda possam ocorrer
+                                        naturalmente
+
+                                        e
+
+                                        - que cada processo terapêutico facilita a descoberta e a emergência da
+                                        singularidade de cada ser humano ao integrar seus aspectos físicos, emocionais,
+                                        mentais e espirituais para a promoção de uma vida mais equilibrada e
+                                        significativa.
+
+                                        Seja bem-vindo à jornada de autodescoberta e crescimento pessoal. Estou aqui
+                                        para apoiar você em seu caminho na direção da saúde mental e do bem-estar
+                                        integral.
+
+                    </p>
+                </div>
+            </div>
+        </div>
+        <img src="./assets/arrow.png" alt="Arrow icon" class="icon arrow" onclick="location.href='./#experience'" />
+    </section>
+    <section id="experience">
+        <p class="section__text__p1">Explore minha </p>
+        <h1 class="title">Jornada no Desenvolvimento Pessoal</h1>
+        <div class="experience-details-container">
+            <div class="about-containers">
+                <div class="details-container">
+                    <h2 class="experience-sub-title">Pscicologia Transpessoal</h2>
+                    <div class="article-container">
+                        <article>
+                            <img src="./assets/unipaz.png" alt="Experience icon" class="icon" />
+                            <div>
+                                <h3>Pscicologia Transpessoal</h3>
+                                <p>UNIPAZ-DF</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./assets/checkmark.png" alt="Experience icon" class="icon" />
+                            <div>
+                                <h3>Experiência de 22 Anos em terapia</h3>
+                                <p>Presencial</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./assets/education.png" alt="Experience icon" class="icon" />
+                            <div>
+                                <h3>Arte Terapia</h3>
+                                <p>Mosaico</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./assets/checkmark.png" alt="Experience icon" class="icon" />
+                            <div>
+                                <h3>Projeto"A Arte de Unir Pedaços</h3>
+                                <p>Pessoal</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./assets/experience.png" alt="Experience icon" class="icon" />
+                            <div>
+                                <h3>PNL</h3>
+                                <p>Em constante Apendizado</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./assets/experience.png" alt="Experience icon" class="icon" />
+                            <div>
+                                <h3>Formação em Inteligência Emocional</h3>
+                                <p>Master</p>
+                            </div>
+                        </article>
+                    </div>
+                </div>
+                
+                <div class="details-container">
+                    <h2 class="experience-sub-title">Membro do CIT</h2>
+                    <div class="article-container">
+                        <article>
+                            <img src="./assets/cit - Cópia.png" alt="My Github profile" class="icon"
+                    onclick="location.href='https://unipaz.org.br/cit/'" />
+            </div>
+                            <div>
+                                <h3>Membro permanente</h3>
+                                <p>Colégio Internacional dos Terapeutas</p>
+                            </div>
+                       
+                    </div>
+                </div>
+            </div>
+        </div>
+        <img src="./assets/arrow.png" alt="Arrow icon" class="icon arrow" onclick="location.href='./#projects'" />
+    </section>
+   
+    <section id="experience">
+        <p class="section__text__p1">Minha</p>
+        <h1 class="title">Missão</h1>
+        <div class="experience-details-container">
+            <div class="about-containers">
+                <div class="details-container">
+                    
+                    <div class="article-container">
+                        
+"Como guardiães do bem-estar mental, nosso compromisso vai além do simples suporte terapêutico,
+ somos artesãos da transformação, engajados em uma jornada de autodescoberta e crescimento ao lado de nossos clientes. 
+ Acreditamos que a saúde emocional é a base de uma vida plena e significativa, 
+ e é com essa convicção que erguemos um santuário virtual, onde a conexão terapêutica floresce e as almas se encontram.
+
+Em minha trajetória como terapeuta transpessoal, abraço a missão de conduzir meus clientes por caminhos ainda não trilhados,
+ explorando os recônditos do eu em busca de compreensão e sabedoria. Transcendemos as fronteiras do convencional,
+  mergulhando nas profundezas da experiência humana para desvendar sua complexidade e beleza. Aqui, no âmago do autodescobrimento,
+   encontramos não apenas respostas, mas também a liberdade para sermos verdadeiramente nós mesmos.
+   
+   Como terapeuta transpessoal, comprometo-me não apenas a guiar meus clientes, mas a mergulhar junto com eles nas profundezas do eu, 
+   explorando os territórios da alma e além. Rompemos os limites do convencional para abraçar a complexidade e a diversidade da experiência humana,
+    buscando uma compreensão mais profunda e enriquecedora do que significa ser verdadeiramente humano."
+                     <h2 class="experience-sub-title">Sandra Helena Orlandini</h2>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <img src="./assets/arrow.png" alt="Arrow icon" class="icon arrow" onclick="location.href='./#projects'" />
+    </section>
+    
+
+    <section id="projects">
+        <p class="section__text__p1">Conheça mais sobre meus atendimentos</p>
+        <h1 class="title">Atendimentos</h1>
+        <div class="experience-details-container">
+            <div class="about-containers">
+                <div class="details-container color-container">
+                    <div class="article-container">
+                        <img src="./assets/pexels-jep-gambardella-7690086.jpg" alt="Project 1" class="project-img" />
+                    </div>
+                    <h2 class="experience-sub-title project-title">Atendimento Online</h2>
+                    <div class="btn-container">
+                        <button class="btn btn-color-2 project-btn" onclick="location.href='https://unipazdf.org.br/'">
+                            <img src="./assets/unipaz.png" alt="Project 1" class="project-img" />
+                              
+                        </button>
+                        <button class="btn btn-color-2 project-btn" onclick="location.href='https://api.whatsapp.com/send?phone=+351915564452&text=Ol%C3%A1%2C%20gostaria%20de%20entrar%20em%20contato%20com%20voc%C3%AA.'" target="_blank" class="btn btn-dark"> 
+                            Contato
+                        </button>
+                    </div>
+                </div>
+                <div class="details-container color-container">
+                    <div class="article-container">
+                        <img src="./assets/pexels-nandhu-kumar-312839.jpg" alt="Project 2" class="project-img" />
+                    </div>
+                    <h2 class="experience-sub-title project-title">Plano Acessíveis</h2>
+                    <div class="btn-container">
+                        <button class="btn btn-color-2 project-btn" onclick="location.href='https://unipazdf.org.br/'">
+                            <img src="./assets/unipaz.png" alt="Project 1" class="project-img" />
+                        </button>
+                        <button class="btn btn-color-2 project-btn" onclick="location.href='https://api.whatsapp.com/send?phone=+351915564452&text=Ol%C3%A1%2C%20gostaria%20de%20entrar%20em%20contato%20com%20voc%C3%AA.'">
+                            Contato
+                        </button>
+                    </div>
+                </div>
+                <div class="details-container color-container">
+                    <div class="article-container">
+                        <img src="./assets/pexels-lukas-928199.jpg" alt="Project 3" class="project-img" />
+                    </div>
+                    <h2 class="experience-sub-title project-title">Ética e Privacidade</h2>
+                    <div class="btn-container">
+                        <button class="btn btn-color-2 project-btn" onclick="location.href='https://unipazdf.org.br/'">
+                            <img src="./assets/unipaz.png" alt="Project 1" class="project-img" />
+                        </button>
+                        <button class="btn btn-color-2 project-btn" onclick="location.href='https://api.whatsapp.com/send?phone=+351915564452&text=Ol%C3%A1%2C%20gostaria%20de%20entrar%20em%20contato%20com%20voc%C3%AA.'">
+                            Contato
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <img src="./assets/arrow.png" alt="Arrow icon" class="icon arrow" onclick="location.href='./#contact'" />
+    </section>
+    <section id="contact">
+        <p class="section__text__p1">Para mais informações</p>
+        <h1 class="title">Contate-me</h1>
+        <div class="contact-info-upper-container">
+            <div class="contact-info-container">
+                <img src="./assets/email.png" alt="Email icon" class="icon contact-icon email-icon" />
+                <p><a href="mailto:cacezes82@gmail.com">helenafishportugal@gmail.com</a></p>
+            </div>
+            <div class="contact-info-container">
+                <img src="./assets/whatsapp.png" alt="LinkedIn icon" class="icon contact-icon" />
+                <button class="btn btn-color-2 project-btn" onclick="location.href='https://api.whatsapp.com/send?phone=+351915564452&text=Ol%C3%A1%2C%20gostaria%20de%20entrar%20em%20contato%20com%20voc%C3%AA.'">
+                    Whatsapp
+                  </button>
+                <!--<p><a location.href='https://api.whatsapp.com/send?phone=+351933056037&text=Ol%C3%A1%2C%20gostaria%20de%20entrar%20em%20contato%20com%20voc%C3%AA.'>Whatsapp</a></p>-->
+            </div>
+        </div>
+    </section>
+    <footer>
+        <nav>
+            <div class="nav-links-container">
+                <ul class="nav-links">
+                    <li><a href="#about">Sobre</a></li>
+                    <li><a href="#experience">Experiência</a></li>
+                    <li><a href="#projects">Atendimentos</a></li>
+                    <li><a href="#contact">Contato</a></li>
+                    </ul>
+                    </div>
+                    </nav>
+                    <p>Copyright &#169; 2024 Thiago Cacezes. All Rights Reserved.</p>
+    </footer>
+    <script src="script.js"></script>
+    
+    
+    <script src="https://dashboard.chatfuel.com/integration/landing-wa-widget.js" async defer data-prefilled="Olá" data-welcome="Olá" data-phone="915564452"></script>
+    
+ </body>
+                   
+</html>
